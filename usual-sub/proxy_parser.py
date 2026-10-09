@@ -6,7 +6,7 @@ from datetime import datetime, timezone, timedelta
 
 BASE_DIR = Path(__file__).resolve().parent
 SOURCES_FILE = BASE_DIR / "proxy_sources.txt"
-OUTPUT_FILE = BASE_DIR / "subscription.txt"
+OUTPUT_FILE = BASE_DIR.parent / "subscription.txt"
 MAX_CONFIGS = 300
 GEO_TIMEOUT = 7
 MAX_BYTES = 20 * 1024 * 1024
