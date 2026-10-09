@@ -1,0 +1,1 @@
+https://raw.githubusercontent.com/kafka-def/v2configs-sub/refs/heads/main/subscription.txt
