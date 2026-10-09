@@ -1,7 +1,8 @@
-#subscription-userinfo: upload=1073741824000; download=0; total=1073741824000; expire=2524608000
+#subscription-userinfo: upload=0; download=0; total=0; expire=2524608000
 #profile-title: V2Ключи 2.0
 #profile-update-interval: 1
-#announce: Не работает? Обновите подписку // Автор @KFCElmir // обновлено: 09.10.2026 15:46 | конфигов: 66
+#support-url: t.me/KFCElmir
+#announce: Не работает? Обновите подписку // Автор @KFCElmir // обновлено: 09.10.2026 16:04 | конфигов: 66
 vless://6ed6162d-fc15-447c-b04c-5d6975d2231d@31.130.155.114:443?encryption=none&type=raw&security=reality&flow=xtls-rprx-vision&sni=api.max.ru&pbk=aySWi4vGm4__zU_RFNtym1AyjtfY0AX9WoigfVG7hWA&sid=6c183039c8fe2676&fp=edge#%F0%9F%87%B7%F0%9F%87%BA%20Russian%20Federation%20%7C%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%20%231
 vless://1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200@84.201.146.8:443?encryption=none&type=xhttp&security=reality&sni=max.ru&pbk=biyXF3Egpu0ul4Jyf04Vh1Zl6u3JGXJ2k5y5y7pDjgo&fp=safari&host=max.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russian%20Federation%20%7C%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%20%232
 vless://3a8b464f-3701-40ed-b6b6-b612019e34c1@37.139.42.221:443?encryption=none&type=ws&security=tls&sni=apis.stroymatdv.cc&path=/amsws&host=apis.stroymatdv.cc#%F0%9F%87%B7%F0%9F%87%BA%20Russian%20Federation%20%7C%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%20%233
