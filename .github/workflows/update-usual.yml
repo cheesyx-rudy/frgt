@@ -11,8 +11,6 @@ on:
         options:
           - fresh
           - cleanup
-  schedule:
-    - cron: "30 * * * *"
 
 permissions:
   contents: write
@@ -40,7 +38,7 @@ jobs:
       - name: Build proxy URL list
         working-directory: usual-sub
         env:
-          UPDATE_MODE: ${{ github.event_name == 'schedule' && 'fresh' || inputs.mode }}
+          UPDATE_MODE: ${{ inputs.mode }}
         run: |
           set -euo pipefail
           python proxy_parser.py --mode "$UPDATE_MODE"
@@ -55,7 +53,7 @@ jobs:
             echo "No generated changes"
             exit 0
           fi
-          if [ "${{ github.event_name == 'schedule' && 'fresh' || inputs.mode }}" = "cleanup" ]; then
+          if [ "${{ inputs.mode }}" = "cleanup" ]; then
             git commit -m "Remove failed proxy URLs"
           else
             git commit -m "Update proxy URLs"
